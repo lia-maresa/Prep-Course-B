@@ -7,7 +7,7 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
-    return (str)
+    return (str);
 
   }
   
@@ -15,30 +15,35 @@ function devolverString(str) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
-    return (x + y)
+    return suma (x + y);
 
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    return resta (x-y)
 
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
-    // Tu código:
+    // Tu código: 
+    return x * y;
+
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    return divide (x / y);
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+
   }
   
   function tienenMismaLongitud(str1, str2) {
