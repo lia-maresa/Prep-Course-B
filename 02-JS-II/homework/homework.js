@@ -36,7 +36,7 @@ function devolverString(str) {
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    return  x % y;
+    return  divide (x / y)
   }
   
   function sonIguales(x, y) {
@@ -74,6 +74,7 @@ function devolverString(str) {
   function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
+    return x % y
   }
   
   function esPar(num) {
@@ -92,7 +93,7 @@ function devolverString(str) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
-    return (num * 2)
+    return (num * num)
   }
   
   function elevarAlCubo(num) {
@@ -161,21 +162,25 @@ function devolverString(str) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
+    return "hola" + " " + nombre;
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
+    return alto * ancho;
   }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
+    return lado * 4;
   }
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
+    return base * altura / 2;
   }
   
   function deEuroAdolar(euro) {
