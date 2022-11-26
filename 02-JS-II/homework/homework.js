@@ -15,34 +15,39 @@ function devolverString(str) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
-    return suma (x + y);
+    return  x + y;
 
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
-    return resta (x-y)
+    return  x - y;
 
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código: 
-    return x * y;
+    return  x * y;
 
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    return divide (x / y);
+    return  x % y;
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (x === y) {
+      return true;
+    } else {
+      return false;
+    }
 
   }
   
@@ -56,12 +61,14 @@ function devolverString(str) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
+    if ( num >100);
   }
   
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
+    return  50;
   }
   
   function obtenerResto(x, y) {
@@ -85,6 +92,7 @@ function devolverString(str) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
+    return (num * 2)
   }
   
   function elevarAlCubo(num) {
@@ -124,9 +132,9 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    if(numero > 0) {
+    if(numero  ) {
       return "es positivo";
-    } else if (numero < 0){
+    } else if (numero -2 ){
       return "es negativo";
     } else 
     return false;
@@ -138,12 +146,15 @@ function devolverString(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
+    return (str + "!");
   }
   
   function combinarNombres(nombre, apellido) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
+    var combinado = nombre + " " + apellido;
+    return combinado;
   }
   
   function obtenerSaludo(nombre) {
