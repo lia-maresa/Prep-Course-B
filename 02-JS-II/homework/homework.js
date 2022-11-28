@@ -36,7 +36,7 @@ function devolverString(str) {
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    return  divide (x / y)
+    return  (x / y);
   }
   
   function sonIguales(x, y) {
