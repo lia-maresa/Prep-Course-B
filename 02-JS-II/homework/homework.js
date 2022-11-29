@@ -61,14 +61,22 @@ function devolverString(str) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
-    if ( num >100);
+    if (num < 90) {
+      return true;
+    } else  (num < 100); {
+      return false;
+    }
   }
   
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
-    return  50;
+    if (num > 51) {
+      return true;
+    } else  (num > 40); {
+      return false;
+    }
   }
   
   function obtenerResto(x, y) {
@@ -81,6 +89,13 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
+    if(numero === 6) {
+      return true;
+    }
+    else (numero > 0); {
+      return false;
+    }
+    
   }
   
   function esImpar(num) {
@@ -133,21 +148,22 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    if(numero  ) {
-      return "es positivo";
-    } else if (numero -2 ){
-      return "es negativo";
-    } else 
-    return false;
-      
     
+    if (esPositivo (0)) {
+      return "es positivo";
+    }
+    else(esPositivo (-5)); {
+      return "es negativo";
+    }
+    
+      
   }
   
   function agregarSimboloExclamacion(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
-    return (str + "!");
+    return str + "!";
   }
   
   function combinarNombres(nombre, apellido) {
