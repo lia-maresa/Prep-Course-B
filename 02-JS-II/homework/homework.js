@@ -45,7 +45,7 @@ function devolverString(str) {
     // Tu código:
     if (x === y) {
       return true;
-    } else {
+    } else  (x === y); {
       return false;
     }
 
