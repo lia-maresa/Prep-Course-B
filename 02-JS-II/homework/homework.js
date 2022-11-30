@@ -55,6 +55,12 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+    if(str1.length === str2.length) {
+      return true;
+    }
+    else {
+      return false;
+    }
   }
   
   function menosQueNoventa(num) {
@@ -89,19 +95,23 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(numero === 6) {
+    
+    if(num % 2 === 0) {
       return true;
-    }
-    else (numero > 0); {
+    } else {
       return false;
     }
-    
   }
   
   function esImpar(num) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
+    if(num % 2 === 1) {
+      return true;
+    } else {
+      return false;
+    }
   }
   
   function elevarAlCuadrado(num) {
@@ -148,12 +158,14 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    
-    if (esPositivo (0)) {
-      return "es positivo";
+    if(numero === 0) {
+      return false;
     }
-    else(esPositivo (-5)); {
-      return "es negativo";
+    else if(numero > 0) {
+      return "Es positivo";
+    }
+    else {
+      return "Es negativo";
     }
     
       
@@ -178,7 +190,8 @@ function devolverString(str) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    return "hola" + " " + nombre;
+    
+    return 'Hola ' + (nombre)  + '!';
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
@@ -203,6 +216,7 @@ function devolverString(str) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
+    return euro * 1.20;
   }
   
   // No modificar nada debajo de esta línea
